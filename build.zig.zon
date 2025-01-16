@@ -1,0 +1,20 @@
+.{
+    .name = "bimg",
+    .version = "0.0.0",
+    .dependencies = .{
+        .bx = .{
+            .url = "git+https://github.com/leonardogattidev/bx.git#d60e9ca9d64ce97a2f1c9001cd14cf52a0cc82c5",
+            .hash = "12205e9c5f016649ade7152c53fd441a8401c2f3a523f5679c457ed5da145323c57e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "include",
+        "3rdparty",
+
+        "LICENSE",
+        "README.md",
+    },
+}
