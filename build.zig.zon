@@ -3,7 +3,7 @@
     .version = "0.0.0",
     .dependencies = .{
         .bx = .{
-            .path = "git+https://github.com/leonardogattidev/bx.git#77753496ae5d39a11af48d61aee4576bcae7dcab",
+            .url = "git+https://github.com/leonardogattidev/bx.git#77753496ae5d39a11af48d61aee4576bcae7dcab",
             .lazy = true,
         },
     },
