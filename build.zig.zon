@@ -4,6 +4,7 @@
     .dependencies = .{
         .bx = .{
             .url = "git+https://github.com/leonardogattidev/bx.git#77753496ae5d39a11af48d61aee4576bcae7dcab",
+            .hash = "122061fc908fb95bbea2205c266066b73df6152436852efba82962677d9e342f32ee",
             .lazy = true,
         },
     },
