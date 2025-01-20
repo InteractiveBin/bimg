@@ -2,7 +2,10 @@
     .name = "bimg",
     .version = "0.0.0",
     .dependencies = .{
-        .bx = .{ .path = "../bx" },
+        .bx = .{
+            .url = "git+https://github.com/leonardogattidev/bx.git#23d892161557c20d085a84bd51f59759ebcb2c89",
+            .hash = "1220ded1e1045f8b3654ee5d73e1a1a385b0fc2d3ca53e040b41ce60cc413e10f5b6",
+        },
     },
     .paths = .{
         "build.zig",
